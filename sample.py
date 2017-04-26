@@ -1,5 +1,5 @@
 text='this is a collection of words of nice words this is a fun thing it is'
-
+text_dict = {}
 text_list = text.strip().split()
 
 for i in text_list:
@@ -9,4 +9,4 @@ for i in text_list:
         text_dict[i] += 1
 
 for each in text_dict:
-    print("{:10s} -- {}".format(each, text_dict[each])
+    print("{:10s} -- {}".format(each, text_dict[each]))
